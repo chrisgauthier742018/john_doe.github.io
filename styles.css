@@ -126,7 +126,8 @@ SideBar Section
     display: grid;
     place-items: center;
     transition: var(--transition);
-    /*transform: translateX(-100%);*/
+    /* comment out until we implement the javascript close button*/
+    transform: translateX(-100%);
 }
 
 
@@ -180,6 +181,15 @@ SideBar Section
 
 .close-btn:hover {
     color:black;
+}
+
+.navbar-fixed {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: var(--clr-white);
+    z-index: 2;
+    box-shadow: var(--light-shadow);
 }
 @media only screen and (min-width: 768px) {
    nav {
