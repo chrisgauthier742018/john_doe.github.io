@@ -231,6 +231,12 @@ SideBar Section
     font-weight:bold;
     font-size: 5rem;
 }
+
+
+.info h4 {
+    font-weight:bold;
+    font-size: 5rem;
+}
 .underline {
   width: 5rem;
   height: 0.25rem;
@@ -253,6 +259,9 @@ SideBar Section
 .hero-photo {
     display:none;
 }
+
+
+
 
 @media only screen and (min-width: 768px) {
    nav {
