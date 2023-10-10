@@ -226,17 +226,6 @@ SideBar Section
 .hero {
     background: var(--clr-primary-10);
 }
-
-.info h1 {
-    font-weight:bold;
-    font-size: 5rem;
-}
-
-
-.info h4 {
-    font-weight:bold;
-    font-size: 5rem;
-}
 .underline {
   width: 5rem;
   height: 0.25rem;
@@ -247,10 +236,6 @@ SideBar Section
     margin-top: 1.25rem;
 }
 
-.hero-info h4 {
-    color: var(--clr-grey-5);
-
-}
 
 .hero-icons {
     justify-items: start;
@@ -260,8 +245,19 @@ SideBar Section
     display:none;
 }
 
+.hero-info h4 {
+    color: var(--clr-grey-5);
+}
 
+@media screen and (min-width: 992px) {
+    .hero-photo {
+        display:block;
+    }
 
+    .hero-center {
+        grid-template-columns: 1fr 1fr;
+    }
+}
 
 @media only screen and (min-width: 768px) {
    nav {
