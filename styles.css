@@ -267,9 +267,6 @@ SideBar Section
         display:block;
 
     }
-    
-   
-
     .hero-center {
         grid-template-columns: 1fr 1fr;
     }
